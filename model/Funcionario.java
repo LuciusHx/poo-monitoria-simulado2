@@ -1,3 +1,4 @@
+package model;
 public class Funcionario extends Pessoa {
     private final int matricula;
     private double salario;

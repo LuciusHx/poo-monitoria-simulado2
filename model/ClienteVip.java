@@ -1,3 +1,4 @@
+package model;
 public class ClienteVip extends Cliente{
     private double percentualDesconto;
     

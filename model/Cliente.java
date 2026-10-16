@@ -1,3 +1,4 @@
+package model;
 public class Cliente extends Pessoa{
     private String endereco;
     private int pontosFidelidade;
