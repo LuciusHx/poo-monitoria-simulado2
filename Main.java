@@ -11,7 +11,7 @@ class Main {
         Cliente c2 = new Cliente("luis", "123333", "luis123@gmail", "avenida");
         System.out.println(c2);
 
-        Produto p1 = new ProdutoFisico(1, "Teclado", 100.0, 5, 0.8);
+        Produto p1 = new ProdutoFisico(1, "Teclado", 100.0, 5, 0.8, "62360-000");
         System.out.println(p1.exibirResumo());
         System.out.println(p1);
 
