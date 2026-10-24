@@ -7,7 +7,7 @@ public abstract class Produto {
     private int estoque;
 
     public Produto(int codigo, String nome, double precoBase, int estoque){
-        if(precoBase < 0){
+        if (precoBase < 0) {
             throw new IllegalArgumentException("Preço base não pode ser negativo.");
         }
         this.codigo = codigo;
